@@ -15,7 +15,6 @@ function realType(value) {
             else if (value === null)
                 return "null";
             return 'object';
-            // valueect literals
         default:
             return typeof (value);
     }
