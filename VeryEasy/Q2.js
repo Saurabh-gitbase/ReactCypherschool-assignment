@@ -1,2 +1,2 @@
 
-var dividesEvenly = (a,b) => a%b==0;
+var dividesEvenly = (a,b) => a%b===0;
