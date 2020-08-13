@@ -7,7 +7,7 @@ var specialReverse = (temp,x) => {
     if(item[0] === x){
         temp[index] = revWord(item);
         }
-}); 
-temp=temp.join(' ');
-return temp;
+    }); 
+    temp=temp.join(' ');
+    return temp;
 }
