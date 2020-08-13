@@ -13,6 +13,6 @@ function removeDuplicate(arr) {
     return arr;
 }
 
-// One Liner Solutin using Set.
+// One Liner Solution using Set.
 
 var removeDups = (arr) => [...new Set(arr)] ;
