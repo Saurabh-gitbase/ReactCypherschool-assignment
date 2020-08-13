@@ -1,8 +1,18 @@
-var charCount = (a,b) => {
-	let count = 0;
-	for(let i of b){
-		if(i===a)
-			count+=1;
+var replaceVowel = (oldString) => {
+	let vowels = {
+    	'a':'1',
+    	'e':'2',
+    	'i':'3',
+    	'o':'4',
+    	'u':'5',
 	}
-	return count;
+	let newString = '';
+	for(let item of oldString)
+	{ 
+		if(vowels[item] === undefined)
+			newString+=item; 
+		else
+			newString+=vowels[item];
+	} 
+	return newString;
 }
