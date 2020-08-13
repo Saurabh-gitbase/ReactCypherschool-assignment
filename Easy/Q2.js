@@ -1,1 +1,1 @@
-var dividesEvenly = (a,b) => a%b === 0;
+var addUp = (a) => ((1+a)*a/2);
